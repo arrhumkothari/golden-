@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Crust Bakery – Freshly Baked, Every Day</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">🥖</span>
+        <span class="logo-text">Golden Crust</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2010 · Surat, Gujarat</p>
+      <h1 class="hero-title">Baked with Love,<br><em>Every Single Day</em></h1>
+      <p class="hero-subtitle">Artisan breads, pastries, and cakes made from the finest ingredients — no preservatives, no shortcuts.</p>
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn btn-primary">Explore Menu</a>
+        <a href="contact.html" class="btn btn-outline">Place an Order</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>14+</strong><span>Years Baking</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>50+</strong><span>Products</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>1000+</strong><span>Happy Customers</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-image-wrapper">
+        <div class="hero-badge">Fresh Daily</div>
+        <div class="hero-img-placeholder">
+          <div class="bread-art">
+            <div class="bread-body"></div>
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+            <div class="steam s3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES STRIP ===== -->
+  <section class="features-strip">
+    <div class="feature-item">
+      <span class="feature-icon">🌾</span>
+      <div>
+        <strong>Stone-Ground Flour</strong>
+        <p>Sourced from local mills</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🧑‍🍳</span>
+      <div>
+        <strong>Master Bakers</strong>
+        <p>Trained with 10+ years experience</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🚚</span>
+      <div>
+        <strong>Same-Day Delivery</strong>
+        <p>Within Surat city limits</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🎂</span>
+      <div>
+        <strong>Custom Orders</strong>
+        <p>Cakes for every occasion</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section class="section products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Bestsellers</p>
+        <h2 class="section-title">Fresh From the Oven</h2>
+        <p class="section-subtitle">Each item is baked fresh in the early morning hours — nothing sits overnight.</p>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <!-- Populated by JS -->
+      </div>
+      <div class="section-cta">
+        <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT TEASER ===== -->
+  <section class="about-teaser section">
+    <div class="container about-teaser-grid">
+      <div class="about-teaser-visual">
+        <div class="about-card card-1">
+          <span class="about-card-icon">🏡</span>
+          <strong>Family-Owned</strong>
+          <p>Three generations of bakers</p>
+        </div>
+        <div class="about-card card-2">
+          <span class="about-card-icon">💛</span>
+          <strong>No Preservatives</strong>
+          <p>Always 100% natural</p>
+        </div>
+        <div class="about-decoration"></div>
+      </div>
+      <div class="about-teaser-content">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">A Bakery Born from Passion</h2>
+        <p>Golden Crust Bakery was founded in 2010 by Priya and Rajan Mehta in the heart of Surat. What started as a small home kitchen delivering fresh sourdough to neighbors has grown into one of Surat's most beloved neighborhood bakeries.</p>
+        <p>We believe that good bread takes time — no shortcuts, no additives. Every loaf is crafted by hand using traditional techniques passed down through Priya's family.</p>
+        <a href="about.html" class="btn btn-outline">Learn Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Customer Love</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The sourdough here is unlike anything I've had in the city. Crusty outside, perfectly chewy inside. I order every week!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div><strong>Anjali Mehta</strong><span>Regular Customer</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card featured-testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Ordered a custom birthday cake for my daughter and it was absolutely stunning — tasted even better than it looked. Will definitely be back!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RS</div>
+            <div><strong>Rohit Shah</strong><span>Birthday Order</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Best croissants in Surat — buttery, flaky, and fresh every morning. The almond croissant is my absolute weakness!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">NP</div>
+            <div><strong>Neha Patel</strong><span>Daily Regular</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div>
+        <h2>Have a Special Occasion?</h2>
+        <p>We craft custom cakes and dessert platters for weddings, birthdays, and corporate events.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary btn-large">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">
+          <span class="logo-icon">🥖</span>
+          <span class="logo-text">Golden Crust</span>
+        </a>
+        <p>Artisan breads and pastries, lovingly baked fresh every morning in Surat, Gujarat.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-hours">
+        <h4>Opening Hours</h4>
+        <table class="hours-table">
+          <tr><td>Monday – Friday</td><td>7:00 AM – 8:00 PM</td></tr>
+          <tr><td>Saturday</td><td>7:00 AM – 9:00 PM</td></tr>
+          <tr><td>Sunday</td><td>8:00 AM – 6:00 PM</td></tr>
+        </table>
+      </div>
+      <div class="footer-contact">
+        <h4>Find Us</h4>
+        <address>
+          <p>📍 12, Bakers Lane, Adajan,<br>Surat, Gujarat 395009</p>
+          <p>📞 <a href="tel:+919876543210">+91 98765 43210</a></p>
+          <p>✉️ <a href="mailto:hello@goldencrustbakery.in">hello@goldencrustbakery.in</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Golden Crust Bakery. All rights reserved.</p>
+      <p>Built with ❤️ as part of IIM Bangalore Web Development Course</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
